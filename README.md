@@ -1,5 +1,6 @@
-### ENCODER 8TO3 DATAFLOW Modelling
-
+#  EXP 5 :Implementation-of- Encoder 8 To 3 in Dataflow Modelling using-verilog
+## NAME : Vaitheswaran N
+## REGISTRATION NUMBER : 24901212
 **AIM:**
 
 To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables
@@ -42,14 +43,26 @@ Figure 02  Encoder 8 * 3
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:Vaitheswaran N RegisterNumber: 24901212
 */
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+![ENCODER DE DIAGRAM](https://github.com/user-attachments/assets/4f06be54-58b7-437f-9b97-700d6ffe1bc7)
 
-**TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+**CODE**
+```
+modmule enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7); 
+input y0,y1,y2,y3,y4,y5,y6,y7; 
+output a,b,c; 
+assign a= ( y4 | y5 | y6 | y7); 
+assign b= ( y2 | y3 | y6 | y7); 
+assign c= ( y1 | y3 | y5 | y7); 
+endmodule
+```
 
 **RESULTS**
+![ENCODER DE OUTPUT](https://github.com/user-attachments/assets/1484f791-2717-4535-b553-485ddbb04658)
+
 
 
 
