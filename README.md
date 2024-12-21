@@ -1,4 +1,7 @@
 #  EXP 5 :Implementation-of- Encoder 8 To 3 in Dataflow Modelling using-verilog
+
+**DATE:** 26.10.2024
+
 ## NAME : Vaitheswaran N
 ## REGISTRATION NUMBER : 24901212
 **AIM:**
